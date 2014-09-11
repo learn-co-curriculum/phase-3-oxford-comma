@@ -1,8 +1,9 @@
 ---
-tags: todo
+tags: todo, arrays, strings
 languages: ruby
 resources: 1
 ---
+
 # Oxford Comma List Formatter
 
 ## Objectives
