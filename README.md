@@ -12,4 +12,3 @@ resources: 1
 
 ## Resources
 * [Wikipedia](http://en.wikipedia.org) - [Serial Comma](http://en.wikipedia.org/wiki/Serial_comma)
-
