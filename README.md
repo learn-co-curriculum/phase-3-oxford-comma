@@ -59,3 +59,4 @@ But calling `join` on the same string and giving it an argument of a `": )"` (sm
 
 ## Resources
 * [Wikipedia](http://en.wikipedia.org) - [Serial Comma](http://en.wikipedia.org/wiki/Serial_comma)
+* [Dot Net Perls - Convert](http://www.dotnetperls.com/convert-ruby)
