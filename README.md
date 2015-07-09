@@ -52,7 +52,7 @@ But calling `join` on the same string and giving it an argument of a `": )"` (sm
 
 ## Instructions 
 * Make a method that takes an array of strings and formats them to be one Oxford comma styled list. For instance, the method should turn the array `["fiddleheads","okra","kohlrabi"]` to the string  `"fiddleheads, okra, and kohlrabi"`.
-* This is a test-driven lab so run `rspec` to get started.
+* This is a test-driven lab so run `learn` to get started.
 
 * *Hint*: Remember, strings can be operated on very similarly to arrays. For instance, you can add elements to the end of strings with the `<<` method just like you can with arrays. 
 * *Hint*: What methods are available to you for converting arrays to strings? You might want to look it up. 
