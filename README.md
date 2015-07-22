@@ -1,29 +1,30 @@
 # Oxford Comma List Formatter
 
 ## Objectives
-1. Practice iterating over array elements
-2. Practice manipulating arrays
-3. Practice manipulating strings
-4. Learn about converting data types
+
+1. Practice iterating over array elements.
+2. Practice manipulating arrays.
+3. Practice manipulating strings.
+4. Learn about converting data types.
 
 ## Converting Types
 
-In Ruby, there are a few methods available to us for converting data types. For example, it is possible to convert a string to an array, an array into a string, a range into an array among other conversions. You can learn more about conversion [here](http://www.dotnetperls.com/convert-ruby), but for now we'll just take a look at a few. 
+In Ruby, there are a few methods available to us for converting data types. For example, it is possible to convert a string to an array, an array into a string, or a range into an array, among other conversions. You can learn more about conversion [here](http://www.dotnetperls.com/convert-ruby), but for now we'll just take a look at a few. 
 
-**String to Array**
+#### String to Array
 
-The `.split` method will convert a string into an array. The `.split` method takes an argument of the character in the string on which you want to split it. For example, if I have string that contains a comma separated list of items: 
+The `.split` method will convert a string into an array. The `.split` method takes an argument of the character in the string on which you want to split it. For example, if we have a string that contains a comma-separated list of items: 
 
-`"hippo, giraffe, monkey, horse"`
+`"hippo,giraffe,monkey,horse"`
 
-I can call `.split` on it, with an argument of a `,` to create an array of animals:
+We can call `.split` on it, with an argument of a `,` ("comma") to get an array of animal names:
 
 ```ruby
-"hippo, giraffe, monkey, horse".split(",")
+"hippo,giraffe,monkey,horse".split(",")
   => ["hippo", "giraffe", "monkey", "horse"]
 ```
 
-**Range to Array**
+#### Range to Array
 
 The `.to_a` method, when called on a range, can convert a range of numbers to an array: 
 
@@ -32,30 +33,29 @@ The `.to_a` method, when called on a range, can convert a range of numbers to an
   => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-**Array to String**
+#### Array to String
 
-The `.join` method, when called on a string, will convert it into an array. This method takes in an optional argument of a character or string of characters that you'd like to insert between each index item. 
+The `.join` method, when called on a string, will convert it into an array. This method takes in an optional string argument containing either a character or a set of characters that will be inserted between each array element.
 
-For example, calling `join` with no argument will create a string out of the array items by placing each array index item directly adjacent to the next index item. 
+For example, calling `.join` with *no* argument will create a string out of the array's elements by placing each one directly adjacent to the next one: 
 
 ```ruby
 ["a", "b", "c"].join
   => "abc"
 ```
-But calling `join` on the same string and giving it an argument of a `": )"` (smiley face) will place a smiley face between each letter. 
+But calling `.join` on the same string and giving it an argument of a `" :-) "` ("smiley face") will place an occurrence of that string between each letter:
 
 ```ruby
-["a", "b", "c"].join(" : ) ")
-  => "a :) b : ) c : )"
+["a", "b", "c"].join(" :-) ")
+  => "a :-) b :-) c :-)"
 ```
 
-
 ## Instructions 
-* Make a method that takes an array of strings and formats them to be one Oxford comma styled list. For instance, the method should turn the array `["fiddleheads","okra","kohlrabi"]` to the string  `"fiddleheads, okra, and kohlrabi"`.
-* This is a test-driven lab so run `learn` to get started.
 
-* *Hint*: Remember, strings can be operated on very similarly to arrays. For instance, you can add elements to the end of strings with the `<<` method just like you can with arrays. 
-* *Hint*: What methods are available to you for converting arrays to strings? You might want to look it up. 
+* Fork and clone this lab. Run `learn` to see the tests fail.
+* Write a method `oxford_comma` that takes an argument array of string elements and converts it into a string using the Oxford comma. For example, the array `["fiddleheads","okra","kohlrabi"]` should get converted to the string `"fiddleheads, okra, and kohlrabi"`.
+  * **Hint:** *Remember, strings can be operated on very similarly to arrays. For instance, you can add elements to the end of strings with the* `<<` *("shovel") method just like you can with arrays.*
+  * **Hint:** *What methods are available to you for converting arrays into strings? You might want to look it up in the Ruby Documentation.*
 
 ## Resources
 * [Wikipedia](http://en.wikipedia.org) - [Serial Comma](http://en.wikipedia.org/wiki/Serial_comma)
