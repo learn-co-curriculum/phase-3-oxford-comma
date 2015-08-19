@@ -35,7 +35,7 @@ The `.to_a` method, when called on a range, can convert a range of numbers to an
 
 #### Array to String
 
-The `.join` method, when called on a string, will convert it into an array. This method takes in an optional string argument containing either a character or a set of characters that will be inserted between each array element.
+The `.join` method, when called on a array, will convert it into a string. This method takes in an optional string argument containing either a character or a set of characters that will be inserted between each array element, as they are assembled into a string.
 
 For example, calling `.join` with *no* argument will create a string out of the array's elements by placing each one directly adjacent to the next one: 
 
@@ -43,7 +43,7 @@ For example, calling `.join` with *no* argument will create a string out of the 
 ["a", "b", "c"].join
   => "abc"
 ```
-But calling `.join` on the same string and giving it an argument of a `" :-) "` ("smiley face") will place an occurrence of that string between each letter:
+But calling `.join` on the same array and giving it an argument of a `" :-) "` ("smiley face") will place an occurrence of that string, (i.e. the smiley face) between each letter:
 
 ```ruby
 ["a", "b", "c"].join(" :-) ")
