@@ -47,7 +47,7 @@ But calling `.join` on the same array and giving it an argument of a `" :-) "` (
 
 ```ruby
 ["a", "b", "c"].join(" :-) ")
-  => "a :-) b :-) c :-)"
+  => "a :-) b :-) c"
 ```
 
 ## Instructions 
