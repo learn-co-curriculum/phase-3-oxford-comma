@@ -2,10 +2,9 @@
 
 ## Objectives
 
-1. Practice iterating over array elements.
-2. Practice manipulating arrays.
-3. Practice manipulating strings.
-4. Learn about converting data types.
+1. Iterate over array elements.
+2. Use various methods to manipulate arrays and strings 
+3. Convert data types
 
 ## Converting Types
 
