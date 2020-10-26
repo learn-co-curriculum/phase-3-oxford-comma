@@ -61,4 +61,4 @@ But calling `.join` on the same array and giving it an argument of a `" :-) "` (
 * [Wikipedia](http://en.wikipedia.org) - [Serial Comma](http://en.wikipedia.org/wiki/Serial_comma)
 * [Dot Net Perls - Convert](http://www.dotnetperls.com/convert-ruby)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oxford-comma' title='Oxford Comma List Formatter'>Oxford Comma List Formatter</a> on Learn.co and start learning to code for free.</p>
+
