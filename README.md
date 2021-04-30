@@ -1,4 +1,4 @@
-# Oxford Comma List Formatter
+# Oxford Comma Lab
 
 ## Objectives
 
